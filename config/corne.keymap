@@ -21,6 +21,36 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo_right {
+            bindings = <&wr>;
+            key-positions = <38 39 19>;
+        };
+
+        combo_left {
+            bindings = <&wl>;
+            key-positions = <38 39 16>;
+        };
+    };
+
+    macros {
+        wl: wl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LA(LEFT))>;
+            label = "WL";
+        };
+
+        wr: wr {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LC(RIGHT))>;
+            label = "WR";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
