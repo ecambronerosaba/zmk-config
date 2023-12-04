@@ -26,7 +26,7 @@
 
         combo_right {
             bindings = <&wr>;
-            key-positions = <38 39 19>;
+            key-positions = <38 19 39>;
         };
 
         combo_left {
@@ -46,7 +46,7 @@
         wr: wr {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(LC(RIGHT))>;
+            bindings = <&kp LC(LA(RIGHT))>;
             label = "WR";
         };
     };
