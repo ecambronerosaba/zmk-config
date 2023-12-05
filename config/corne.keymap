@@ -80,10 +80,10 @@
 
         number {
             bindings = <
-&kp GRAVE  &kp DEL    &trans     &kp LS(LPAR)  &kp LS(RPAR)  &kp BSLH     &kp FSLH      &kp N7  &kp N8  &kp N9  &kp MINUS     &kp BSPC
-&to 0      &kp MINUS  &kp EQUAL  &kp LBKT      &kp RBKT      &trans       &kp LS(STAR)  &kp N4  &kp N5  &kp N6  &kp LS(PLUS)  &kp EQUAL
-&trans     &kp LG(Z)  &kp LG(X)  &kp LG(C)     &kp LG(V)     &kp LG(Y)    &kp COMMA     &kp N1  &kp N2  &kp N3  &kp DOT       &kp RET
-                                 &to 3         &trans        &trans       &trans        &trans  &kp N0
+&kp GRAVE  &kp DEL    &trans     &kp LS(LPAR)  &kp LS(RPAR)  &kp BSLH           &kp FSLH      &kp N7  &kp N8  &kp N9  &kp MINUS     &kp BSPC
+&to 0      &kp MINUS  &kp EQUAL  &kp LBKT      &kp RBKT      &kp EXCLAMATION    &kp LS(STAR)  &kp N4  &kp N5  &kp N6  &kp LS(PLUS)  &kp EQUAL
+&trans     &kp LG(Z)  &kp LG(X)  &kp LG(C)     &kp LG(V)     &kp LG(Y)          &kp COMMA     &kp N1  &kp N2  &kp N3  &kp DOT       &kp RET
+                                 &to 3         &trans        &trans             &trans        &trans  &kp N0
             >;
         };
 
