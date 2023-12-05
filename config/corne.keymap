@@ -65,34 +65,34 @@
 &kp TAB           &kp Q  &kp W    &kp F    &kp P    &kp B               &kp J           &kp L      &kp U          &kp Y    &kp SEMICOLON  &kp ESCAPE
 &kp LEFT_ALT      &kp A  &kp R    &kp S    &kp T    &kp G               &kp M           &kp N      &kp E          &kp I    &kp O          &kp SINGLE_QUOTE
 &kp LEFT_CONTROL  &kp Z  &lt 1 X  &lt 2 C  &lt 3 D  &kp V               &kp K           &kp H      &kp COMMA      &kp DOT  &kp FSLH       &kp LEFT_CONTROL
-                                  &tog 1   &kp RET  &kp LEFT_COMMAND    &kp LEFT_SHIFT  &kp SPACE  &kp BACKSPACE
+                                  &to 1    &kp RET  &kp LEFT_COMMAND    &kp LEFT_SHIFT  &kp SPACE  &kp BACKSPACE
             >;
         };
 
         nav {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &bt BT_CLR    &trans  &trans    &kp UP    &trans     &kp PAGE_UP    &kp HOME
-&tog 0  &trans  &trans  &trans  &trans  &bt BT_NXT    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN  &kp END
+&to 0   &trans  &trans  &trans  &trans  &bt BT_NXT    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN  &kp END
 &trans  &trans  &trans  &trans  &trans  &bt BT_PRV    &trans  &trans    &trans    &trans     &trans         &trans
-                        &tog 2  &trans  &trans        &trans  &trans    &trans
+                        &to 2   &trans  &trans        &trans  &trans    &trans
             >;
         };
 
         number {
             bindings = <
 &kp GRAVE  &kp DEL    &trans     &kp LS(LPAR)  &kp LS(RPAR)  &kp BSLH     &kp FSLH      &kp N7  &kp N8  &kp N9  &kp MINUS     &kp BSPC
-&tog 0     &kp MINUS  &kp EQUAL  &kp LBKT      &kp RBKT      &trans       &kp LS(STAR)  &kp N4  &kp N5  &kp N6  &kp LS(PLUS)  &kp EQUAL
+&to 0      &kp MINUS  &kp EQUAL  &kp LBKT      &kp RBKT      &trans       &kp LS(STAR)  &kp N4  &kp N5  &kp N6  &kp LS(PLUS)  &kp EQUAL
 &trans     &kp LG(Z)  &kp LG(X)  &kp LG(C)     &kp LG(V)     &kp LG(Y)    &kp COMMA     &kp N1  &kp N2  &kp N3  &kp DOT       &kp RET
-                                 &tog 3        &trans        &trans       &trans        &trans  &kp N0
+                                 &to 3         &trans        &trans       &trans        &trans  &kp N0
             >;
         };
 
         adjust {
             bindings = <
 &trans  &trans  &kp K_VOL_DN  &kp K_MUTE        &kp K_VOLUME_UP  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&tog 0  &trans  &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_FORWARD    &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&to 0   &trans  &kp K_PREV    &kp K_PLAY_PAUSE  &kp K_FORWARD    &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans        &trans            &trans           &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                              &tog 0            &trans           &trans    &trans  &trans  &trans
+                              &to 0             &trans           &trans    &trans  &trans  &trans
             >;
         };
     };
