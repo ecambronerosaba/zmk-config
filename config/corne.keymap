@@ -62,10 +62,10 @@
             //                    | GUI | LWR | ALT/ENT |   | HYPER/SPC | BKSP  | RSE |
 
             bindings = <
-&kp TAB           &kp Q  &kp W    &kp F    &kp P    &kp B                    &kp J           &kp L      &kp U          &kp Y    &kp SEMICOLON  &kp ESCAPE
-&kp LEFT_ALT      &kp A  &kp R    &kp S    &kp T    &kp G                    &kp M           &kp N      &kp E          &kp I    &kp O          &kp SINGLE_QUOTE
-&kp LEFT_CONTROL  &kp Z  &lt 1 X  &lt 2 C  &lt 3 D  &kp V                    &kp K           &kp H      &kp COMMA      &kp DOT  &kp FSLH       &kp LEFT_CONTROL
-                                  &to 1    &kp RET  &mt LEFT_ALT LEFT_GUI    &kp LEFT_SHIFT  &kp SPACE  &kp BACKSPACE
+&kp TAB           &kp Q  &kp W    &kp F    &kp P                &kp B           &kp J           &kp L      &kp U          &kp Y    &kp SEMICOLON  &kp ESCAPE
+&kp LEFT_ALT      &kp A  &kp R    &kp S    &kp T                &kp G           &kp M           &kp N      &kp E          &kp I    &kp O          &kp SINGLE_QUOTE
+&kp LEFT_CONTROL  &kp Z  &lt 1 X  &lt 2 C  &lt 3 D              &kp V           &kp K           &kp H      &kp COMMA      &kp DOT  &kp FSLH       &kp LEFT_CONTROL
+                                  &to 1    &mt LEFT_ALT RETURN  &kp LEFT_GUI    &kp LEFT_SHIFT  &kp SPACE  &kp BACKSPACE
             >;
         };
 
