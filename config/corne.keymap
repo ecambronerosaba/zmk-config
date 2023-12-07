@@ -65,7 +65,7 @@
 &kp TAB         &kp Q  &kp W    &kp F    &kp P                &kp B           &kp J          &kp L      &kp U        &kp Y         &kp SEMICOLON  &kp ESCAPE
 &kp LEFT_ALT    &kp A  &kp R    &kp S    &kp T                &kp G           &kp M          &kp N      &kp E        &kp I         &kp O          &kp SINGLE_QUOTE
 &kp LEFT_SHIFT  &kp Z  &lt 1 X  &lt 2 C  &lt 3 D              &kp V           &kp K          &lt 3 H    &lt 2 COMMA  &lt 1 PERIOD  &kp FSLH       &kp LEFT_CONTROL
-                                &mo 2    &mt LEFT_ALT RETURN  &kp LEFT_GUI    &kp BACKSPACE  &kp SPACE  &mo 1
+                                &to 2    &mt LEFT_ALT RETURN  &kp LEFT_GUI    &kp BACKSPACE  &kp SPACE  &to 1
             >;
         };
 
@@ -76,6 +76,8 @@
 &trans  &trans  &trans  &trans  &trans  &bt BT_PRV    &trans  &trans    &trans    &trans     &trans         &trans
                         &to 2   &trans  &trans        &trans  &trans    &trans
             >;
+
+            label = "navigation";
         };
 
         number {
@@ -85,6 +87,8 @@
 &trans     &kp LG(Z)  &kp LG(X)  &kp LG(C)     &kp LG(V)     &kp LG(S)          &kp COMMA     &kp N1  &kp N2  &kp N3  &kp DOT       &kp RET
                                  &to 3         &trans        &trans             &trans        &trans  &kp N0
             >;
+
+            label = "number";
         };
 
         adjust {
@@ -94,6 +98,8 @@
 &trans  &trans  &trans        &trans            &trans           &trans    &trans  &trans                &trans                 &trans            &trans             &trans
                               &to 0             &trans           &trans    &trans  &trans                &trans
             >;
+
+            label = "adjust";
         };
     };
 };
