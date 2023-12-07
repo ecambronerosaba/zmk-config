@@ -74,6 +74,8 @@
 &kp LEFT_SHIFT  &kp Z  &lt 2 X  &lt 3 C  &lt 3 D              &kp V    &kp K          &lt 3 H    &lt 3 COMMA  &lt 2 PERIOD  &kp FSLH       &kp LEFT_CONTROL
                                 &to 3    &mt LEFT_ALT RETURN  &ce      &kp BACKSPACE  &kp SPACE  &to 2
             >;
+
+            label = "base";
         };
 
         nav {
