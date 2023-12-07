@@ -32,6 +32,8 @@
             label = "BSPC";
             #binding-cells = <0>;
             bindings = <&kp LA(BACKSPACE)>, <&kp BACKSPACE>;
+
+            tapping-term-ms = <300>;
         };
     };
 
