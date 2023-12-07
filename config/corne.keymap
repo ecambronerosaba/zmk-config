@@ -19,6 +19,13 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
+        ce: ce {
+            compatible = "zmk,behavior-tap-dance";
+            label = "CE";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_GUI>, <&kp LG(ENTER)>;
+        };
     };
 
     combos {
@@ -62,10 +69,10 @@
             //                    | GUI | LWR | ALT/ENT |   | HYPER/SPC | BKSP  | RSE |
 
             bindings = <
-&kp TAB         &kp Q  &kp W    &kp F    &kp P                &kp B           &kp J          &kp L      &kp U        &kp Y         &kp SEMICOLON  &kp ESCAPE
-&kp LEFT_ALT    &kp A  &kp R    &kp S    &kp T                &kp G           &kp M          &kp N      &kp E        &kp I         &kp O          &kp SINGLE_QUOTE
-&kp LEFT_SHIFT  &kp Z  &lt 1 X  &lt 2 C  &lt 3 D              &kp V           &kp K          &lt 3 H    &lt 2 COMMA  &lt 1 PERIOD  &kp FSLH       &kp LEFT_CONTROL
-                                &to 2    &mt LEFT_ALT RETURN  &kp LEFT_GUI    &kp BACKSPACE  &kp SPACE  &to 1
+&kp TAB         &kp Q  &kp W    &kp F    &kp P                &kp B    &kp J          &kp L      &kp U        &kp Y         &kp SEMICOLON  &kp ESCAPE
+&kp LEFT_ALT    &kp A  &kp R    &kp S    &kp T                &kp G    &kp M          &kp N      &kp E        &kp I         &kp O          &kp SINGLE_QUOTE
+&kp LEFT_SHIFT  &kp Z  &lt 1 X  &lt 2 C  &lt 3 D              &kp V    &kp K          &lt 3 H    &lt 2 COMMA  &lt 1 PERIOD  &kp FSLH       &kp LEFT_CONTROL
+                                &to 2    &mt LEFT_ALT RETURN  &ce      &kp BACKSPACE  &kp SPACE  &to 1
             >;
         };
 
