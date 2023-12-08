@@ -45,6 +45,7 @@
             bindings = <&kp LA(BACKSPACE)>;
             key-positions = <24 39>;
             layers = <0>;
+            timeout-ms = <200>;
         };
     };
 
