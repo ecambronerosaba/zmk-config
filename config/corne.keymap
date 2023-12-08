@@ -26,15 +26,6 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_GUI>, <&kp LG(ENTER)>;
         };
-
-        bspc: bspc {
-            compatible = "zmk,behavior-tap-dance";
-            label = "BSPC";
-            #binding-cells = <0>;
-            bindings = <&kp LA(BACKSPACE)>, <&kp BACKSPACE>;
-
-            tapping-term-ms = <300>;
-        };
     };
 
     combos {
@@ -48,6 +39,12 @@
         combo_left {
             bindings = <&wl>;
             key-positions = <38 39 16>;
+        };
+
+        backspace {
+            bindings = <&kp LA(BACKSPACE)>;
+            key-positions = <24 39>;
+            layers = <0>;
         };
     };
 
@@ -78,10 +75,10 @@
             //                    | GUI | LWR | ALT/ENT |   | HYPER/SPC | BKSP  | RSE |
 
             bindings = <
-&kp TAB         &kp Q  &kp W    &kp F    &kp P                &kp B    &kp J  &kp L      &kp U        &kp Y         &kp SEMICOLON  &kp ESCAPE
-&kp LEFT_ALT    &kp A  &kp R    &kp S    &kp T                &kp G    &kp M  &kp N      &kp E        &kp I         &kp O          &kp SINGLE_QUOTE
-&kp LEFT_SHIFT  &kp Z  &lt 1 X  &lt 2 C  &lt 3 D              &kp V    &kp K  &lt 3 H    &lt 2 COMMA  &lt 1 PERIOD  &kp FSLH       &kp LEFT_CONTROL
-                                &mo 2    &mt LEFT_ALT RETURN  &ce      &bspc  &kp SPACE  &mo 3
+&kp TAB         &kp Q  &kp W    &kp F    &kp P                &kp B    &kp J          &kp L      &kp U        &kp Y         &kp SEMICOLON  &kp ESCAPE
+&kp LEFT_ALT    &kp A  &kp R    &kp S    &kp T                &kp G    &kp M          &kp N      &kp E        &kp I         &kp O          &kp SINGLE_QUOTE
+&kp LEFT_SHIFT  &kp Z  &lt 1 X  &lt 2 C  &lt 3 D              &kp V    &kp K          &lt 3 H    &lt 2 COMMA  &lt 1 PERIOD  &kp FSLH       &kp LEFT_CONTROL
+                                &mo 2    &mt LEFT_ALT RETURN  &ce      &kp BACKSPACE  &kp SPACE  &mo 3
             >;
 
             label = "base";
