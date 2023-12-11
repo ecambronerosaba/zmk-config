@@ -49,6 +49,11 @@
             bindings = <&wl>;
             key-positions = <38 39 16>;
         };
+
+        combo_pwd {
+            bindings = <&pwd>;
+            key-positions = <12 23>;
+        };
     };
 
     macros {
@@ -64,6 +69,13 @@
             #binding-cells = <0>;
             bindings = <&kp LC(LA(RIGHT))>;
             label = "WR";
+        };
+
+        pwd: pwd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp LS(F) &kp LS(T) &kp LS(W) &kp N2 &kp N0 &kp N2 &kp N1 &kp DLLR>;
+            label = "PWD";
         };
     };
 
