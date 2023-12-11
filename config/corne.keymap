@@ -54,6 +54,16 @@
             bindings = <&pwd>;
             key-positions = <12 23>;
         };
+
+        combo_bootleft {
+            bindings = <&bootloader>;
+            key-positions = <12 36>;
+        };
+
+        combo_bootloaderright {
+            bindings = <&bootloader>;
+            key-positions = <41 23>;
+        };
     };
 
     macros {
