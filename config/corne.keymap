@@ -64,6 +64,11 @@
             bindings = <&bootloader>;
             key-positions = <41 23>;
         };
+
+        combo_email {
+            bindings = <&email>;
+            key-positions = <24 35>;
+        };
     };
 
     macros {
@@ -84,8 +89,15 @@
         pwd: pwd {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp LS(F) &kp LS(T) &kp LS(W) &kp N2 &kp N0 &kp N2 &kp N1 &kp DLLR>;
+            bindings = <&kp LS(F) &kp LS(T) &kp LS(W) &kp N2 &kp N0 &kp N2 &kp N1 &kp DLLR>;
             label = "PWD";
+        };
+
+        email: email {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp C &kp A &kp M &kp B &kp R &kp O &kp N &kp E &kp R &kp O &kp S &kp A &kp B &kp A &kp AT &kp N &kp E &kp T &kp F &kp L &kp I &kp X &kp DOT &kp C &kp O &kp M>;
+            label = "EMAIL";
         };
     };
 
