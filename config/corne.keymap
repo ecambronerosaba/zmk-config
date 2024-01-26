@@ -74,6 +74,16 @@
             bindings = <&kp LC(LA(ENTER))>;
             key-positions = <38 39 19 16>;
         };
+
+        combo_gadd {
+            bindings = <&gadd>;
+            key-positions = <15 38>;
+        };
+
+        combo_gpush {
+            bindings = <&gpush>;
+            key-positions = <39 20>;
+        };
     };
 
     macros {
@@ -103,6 +113,20 @@
             #binding-cells = <0>;
             bindings = <&kp E &kp C &kp A &kp M &kp B &kp R &kp O &kp N &kp E &kp R &kp O &kp S &kp A &kp B &kp A &kp AT &kp N &kp E &kp T &kp F &kp L &kp I &kp X &kp DOT &kp C &kp O &kp M>;
             label = "EMAIL";
+        };
+
+        gadd: gadd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp G &kp I &kp T &kp SPACE &kp A &kp D &kp D &kp SPACE &kp DOT &kp SEMI &kp SPACE &kp G &kp I &kp T &kp SPACE &kp C &kp O &kp M &kp M &kp I &kp T &kp SPACE &kp MINUS &kp M &kp SPACE &kp DQT>;
+            label = "GADD";
+        };
+
+        gpush: gpush {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp DQT &kp SEMI &kp SPACE &kp G &kp I &kp T &kp SPACE &kp P &kp U &kp S &kp H>;
+            label = "GPUSH";
         };
     };
 
