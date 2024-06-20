@@ -141,10 +141,10 @@
             //                    | GUI | LWR | ALT/ENT |   | HYPER/SPC | BKSP  | RSE |
 
             bindings = <
-&kp TAB           &kp Q  &kp W    &kp F    &kp P                &kp B    &kp J  &kp L      &kp U            &kp Y         &kp SEMICOLON  &kp ESCAPE
-&kp LG(LS(F5))    &kp A  &kp R    &kp S    &kp T                &kp G    &kp M  &kp N      &kp E            &kp I         &kp O          &kp SINGLE_QUOTE
-&kp LEFT_CONTROL  &kp Z  &lt 1 X  &lt 2 C  &lt 3 D              &kp V    &kp K  &lt 3 H    &lt 2 COMMA      &lt 1 PERIOD  &kp FSLH       &kp RIGHT_ALT
-                                  &mo 2    &mt LEFT_ALT RETURN  &ce      &bspc  &kp SPACE  &kp RIGHT_SHIFT
+&kp TAB         &kp Q  &kp W    &kp F    &kp P                &kp B    &kp J  &kp L      &kp U        &kp Y         &kp SEMICOLON  &kp ESCAPE
+&kp LG(LS(N5))  &kp A  &kp R    &kp S    &kp T                &kp G    &kp M  &kp N      &kp E        &kp I         &kp O          &kp SINGLE_QUOTE
+&kp LEFT_SHIFT  &kp Z  &lt 1 X  &lt 2 C  &lt 3 D              &kp V    &kp K  &lt 3 H    &lt 2 COMMA  &lt 1 PERIOD  &kp FSLH       &kp RIGHT_ALT
+                                &mo 2    &mt LEFT_ALT RETURN  &ce      &bspc  &kp SPACE  &kp LCTRL
             >;
 
             label = "base";
