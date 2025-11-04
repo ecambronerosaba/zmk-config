@@ -152,10 +152,10 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &bt BT_CLR    &trans  &trans    &kp UP    &trans     &kp PAGE_UP    &kp HOME
-&to 0   &trans  &trans  &trans  &trans  &bt BT_NXT    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN  &kp END
-&trans  &trans  &trans  &trans  &trans  &bt BT_PRV    &trans  &trans    &trans    &trans     &trans         &trans
-                        &to 3   &trans  &trans        &trans  &trans    &trans
+&bootloader  &trans  &trans  &trans  &trans  &bt BT_CLR    &trans  &trans    &kp UP    &trans     &kp PAGE_UP    &kp HOME
+&to 0        &trans  &trans  &trans  &trans  &bt BT_NXT    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN  &kp END
+&trans       &trans  &trans  &trans  &trans  &bt BT_PRV    &trans  &trans    &trans    &trans     &trans         &trans
+                             &to 3   &trans  &trans        &trans  &trans    &trans
             >;
 
             label = "navigation";
