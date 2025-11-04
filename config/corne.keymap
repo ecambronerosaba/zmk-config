@@ -144,7 +144,7 @@
 &kp TAB         &kp Q  &kp W    &kp F    &kp P                &kp B    &kp J  &kp L      &kp U        &kp Y         &kp SEMICOLON  &kp ESCAPE
 &kp LG(LS(N5))  &kp A  &kp R    &kp S    &kp T                &kp G    &kp M  &kp N      &kp E        &kp I         &kp O          &kp SINGLE_QUOTE
 &kp LEFT_SHIFT  &kp Z  &lt 1 X  &lt 2 C  &lt 3 D              &kp V    &kp K  &lt 3 H    &lt 2 COMMA  &lt 1 PERIOD  &kp FSLH       &kp RIGHT_ALT
-                                &mo 2    &mt LEFT_ALT RETURN  &ce      &bspc  &kp SPACE  &kp LCTRL
+                                &to 1    &mt LEFT_ALT RETURN  &ce      &bspc  &kp SPACE  &kp LCTRL
             >;
 
             label = "base";
@@ -165,7 +165,7 @@
             bindings = <
 &kp GRAVE  &kp DEL    &trans     &kp LS(LPAR)  &kp LS(RPAR)  &kp BSLH           &kp FSLH      &kp N7  &kp N8  &kp N9  &kp MINUS     &kp BSPC
 &to 0      &kp MINUS  &kp EQUAL  &kp LBKT      &kp RBKT      &kp EXCLAMATION    &kp LS(STAR)  &kp N4  &kp N5  &kp N6  &kp LS(PLUS)  &kp EQUAL
-&trans     &kp LG(Z)  &kp LG(X)  &kp LG(C)     &kp LG(V)     &kp LG(S)          &kp COMMA     &kp N1  &kp N2  &kp N3  &kp DOT       &kp RET
+&trans     &kp LG(Z)  &kp LG(X)  &kp C         &kp LG(V)     &kp LG(S)          &kp COMMA     &kp N1  &kp N2  &kp N3  &kp DOT       &kp RET
                                  &to 3         &trans        &trans             &trans        &trans  &kp N0
             >;
 
